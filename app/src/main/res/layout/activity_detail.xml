@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.DetailActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="#DDDDDD"
+        android:id="@+id/carImage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Id"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carImage"
+        android:id="@+id/txt_Id"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="nama"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/carImage"
+        android:id="@+id/txt_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Category"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:id="@+id/txt_category"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Price"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_category"
+        android:id="@+id/txt_harga"/>
+
+</RelativeLayout>
